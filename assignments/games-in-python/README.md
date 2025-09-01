@@ -1,19 +1,46 @@
 
-# 🎮 Hangman Game Challenge
+# 📘 Assignment: Games in Python – Hangman
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+## 🎯 Objective
 
-## � What You'll Build
+Build a classic Hangman word-guessing game in Python. This assignment will help you practice string manipulation, loops, conditionals, random selection, and user input.
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+## 📝 Tasks
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+### 🛠️ Task 1: Build the Hangman Game
 
-## ✅ Must Have's
+#### Description
+Create a Hangman game where players try to guess a hidden word, one letter at a time, before running out of attempts.
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+#### Requirements
+Completed program should:
+
+- Randomly select a word from a predefined list
+- Accept single-letter guesses from the player
+- Display the current progress (e.g., `_ _ a _ _`)
+- Track and display the number of incorrect guesses remaining
+- End the game when the word is guessed or attempts are exhausted
+- Show a friendly win or lose message at the end
+
+### 🛠️ Task 2: (Optional) Challenge Extensions
+
+#### Description
+Enhance your Hangman game with extra features for more challenge and fun.
+
+#### Requirements
+Completed program could:
+
+- Allow the player to guess the whole word at once
+- Add a list of previously guessed letters
+- Make the word list read from a file
+
+---
+
+💡 **Tips for Success:**
+- Use clear variable names and comments to explain your code
+- Test your game with different words and edge cases
+- Keep your code organized and readable
+
+🚀 If provided, download the `starter-code.py` file to help you get started.
+
+Good luck, and have fun coding your Hangman game!
